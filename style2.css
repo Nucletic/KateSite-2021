@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* edf2fc */
+
+/* 212121 */
+
+/* ff4321 */
+
+#header {
+    min-height: 100vh;
+    height: 100vh;
+    width: 100%;
+    background: #edf2fc;
+}
+
+.logo {
+    position: absolute;
+    top: 3%;
+    left: 6%;
+    width: 80px;
+}
+
+.navbar ul {
+    padding: 15px 30px;
+    text-align: right;
+}
+
+.navbar ul li {
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+.navbar ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: #ff4321;
+}
+
+.banner-text {
+    padding-top: 170px;
+    padding-left: 50px;
+}
+
+.banner-text h1 span {
+    color: #ff4321;
+    font-size: 55px;
+}
+
+.banner-text h1 {
+    font-size: 55px;
+}
+
+.banner-text p {
+    font-size: 20px;
+}
+
+.banner-btn {
+    padding-top: 30px;
+}
+
+.banner-btn a {
+    background: #212121;
+    border-radius: 3px;
+    padding: 12px 27px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.image {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.image img {
+    transform: translateX(-50%);
+    position: absolute;
+    height: 100%;
+    bottom: 0;
+    left: 50%;
+    transition: 1s;
+}
+
+.image:hover .girl {
+    left: 54%;
+}
+
+.image:hover .pattern {
+    bottom: 40px;
+}
+
+.icons {
+    margin-left: 5%;
+    padding-top: 190px;
+    font-size: 20px;
+}
+
+.fa {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.fa:hover {
+    color: #ff4321;
+    cursor: pointer;
+}
